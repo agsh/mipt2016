@@ -19,6 +19,6 @@ main :: IO()
 main = 
   withSocketsDo $ do
   initReq <- parseUrl "http://91.239.143.158:13666/lab0"
-  let req = urlEncodedBody [("email", email), ("name", name), ("lang", "haskell"), ("content", printIt 20)] $ initReq { method = "POST" }
+  let req = urlEncodedBody [("email", email), ("name", name), ("content", printIt 20)] $ initReq { method = "POST" }
   response <- withManager $ httpLbs req
   L.putStr $ responseBody response
