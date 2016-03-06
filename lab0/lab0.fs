@@ -19,7 +19,6 @@ let main () =
   let values = new NameValueCollection()
   values.Add("email", email)
   values.Add("name", name)
-  values.Add("lang", "fsharp")
   values.Add("content", printIt 20)
 
   let client = new WebClient()
