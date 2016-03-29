@@ -46,7 +46,7 @@ let main () =
   values.Add("content", File.ReadAllText(__SOURCE_DIRECTORY__ + @"/" + __SOURCE_FILE__))
 
   let client = new WebClient()
-  let response = client.UploadValues(new Uri("http://91.239.143.159:13666/lab1"), values)
+  let response = client.UploadValues(new Uri("http://91.239.143.158:13666/lab1"), values)
   let responseString = Text.Encoding.Default.GetString(response)
 
   printf "%A\n" responseString
