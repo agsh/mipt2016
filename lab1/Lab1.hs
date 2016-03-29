@@ -53,7 +53,7 @@ printSolve =
 
 main = withSocketsDo $ do
   dir <- getCurrentDirectory
-  initReq <- parseUrl "http://91.239.143.159:13666/lab1"
+  initReq <- parseUrl "http://91.239.143.158:13666/lab1"
   handle <- openFile (dir ++ "/Lab1.hs") ReadMode
   hSetEncoding handle utf8_bom
   content <- hGetContents handle
