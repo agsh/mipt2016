@@ -61,7 +61,7 @@ generate = evalState generate' (mkStdGen 0)
 main :: IO()
 main = withSocketsDo $ do
   dir <- getCurrentDirectory
-  initReq <- parseUrl "http://91.239.143.154:13666/lab2"
+  initReq <- parseUrl "http://91.239.143.158:13666/lab2"
   handle <- openFile (dir ++ "/Lab2.hs") ReadMode
   hSetEncoding handle utf8_bom
   content <- hGetContents handle
