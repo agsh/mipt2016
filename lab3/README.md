@@ -27,7 +27,7 @@
 |7|Составить список [выпускников ФИВТ](https://vk.com/fivtmipt), которые [любят КВН](https://vk.com/ligakvnmfti)|
 |8|Составить список 50 самых комментируемых [преподавателей](http://wikimipt.org/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%B5%D0%BF%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83)|
 |9|Составить список 50 комментариев для [преподавателей](http://wikimipt.org/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%B5%D0%BF%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83) с самой высокой оценкой|
-|10||
+|10|Узнать, в каких группах больше всего тем с пометкой "Важно:" на форуме [sql.ru](http://www.sql.ru/forum)|
 |11|Отсортировать список [git-проектов Haskell](https://github.com/haskell), которые проходят тесты на Travis CI по количеству веток|
 |12|Выяснить, какой процент из топ-500 проектов на языках Haskell и F# на github с наибольшим количеством звёзд составляют [проекты на F#](https://github.com/search?utf8=%E2%9C%93&q=language%3AF%23&type=Repositories&ref=advsearch&l=F%23)|
 |13|Составить частоту обновлений [проектов на F#](https://github.com/search?utf8=%E2%9C%93&q=language%3AF%23&type=Repositories&ref=advsearch&l=F%23) на github (в течении последнего месяца, двух, и т.д.)|
@@ -41,8 +41,8 @@
 |21|Под какой лицензией выпущено большинство [проектов на F#](https://github.com/search?utf8=%E2%9C%93&q=language%3AF%23&type=Repositories&ref=advsearch&l=F%23) на github, если судить по файлу LICENSE?|
 |22|Сколько пакетов в [Hackage](http://hackage.haskell.org/packages/) относятся к нескольким категориям?
 |23|У какого факультета ФИВТ больше всего [кафедр](http://wikimipt.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D1%8B_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83)?
-|24||
-|25||
+|24|Узнать, в каком разделе форума [sql.ru](http://www.sql.ru/forum/sqlru-3-days) больше всего вопросов за последние 3 дня|
+|25|Узнать, какое количество [вопросов](https://toster.ru/questions), заданных за последние 5 часов, остались без ответа|
 |26|Кто, кроме anonymous'а оставил больше всего комментариев в [этой теме](https://www.linux.org.ru/news/google/11404954)?|
 |27|Какой тэг самый популярный среди ста самых популярных пакетов на [NuGet](https://www.nuget.org/stats/packages)?
 |28|В каком месяце какого года было больше всего вопросов в [рассылке эрланга](http://erlang.org/pipermail/erlang-questions/)?|
