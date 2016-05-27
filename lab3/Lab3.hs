@@ -30,7 +30,7 @@ main = withSocketsDo $ do
   nodes <- lab3
   dir <- getCurrentDirectory
   initReq <- parseUrl "http://91.239.143.158:13666/lab3"
-  handle <- openFile (dir ++ "/Lab2.hs") ReadMode
+  handle <- openFile (dir ++ "/Lab3.hs") ReadMode
   hSetEncoding handle utf8_bom
   content <- hGetContents handle
   let req = urlEncodedBody [("email", email), ("result", encodeUtf8 $ T.concat $ nodes), ("content", encodeUtf8 $ T.pack content) ] $ initReq { method = "POST" }
