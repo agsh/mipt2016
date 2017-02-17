@@ -1,3 +1,4 @@
+http://fsharp.org/use/linux/
 2 + 2 // val it : int = 4
 6 / 5 // val it : int = 1
 6 / -5 // val it : int = -1
